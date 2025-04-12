@@ -54,7 +54,8 @@ This is a implemented a basic Movie Ticket Management API using REST principles.
 
 ---------------------------------------------------------------------------------------
 ![image](https://github.com/user-attachments/assets/1aa616f9-9f85-4b50-8b11-d8f1623a9b2f)
-1.	This is a POST API to create a new movie ticket entry.
+
+	1.	This is a POST API to create a new movie ticket entry.
 	2.	The URL localhost:8080/ticket/movie is used to send the movie details.
 	3.	The request body includes movie name, director, rating, and language in JSON format.
 	4.	A 200 OK response confirms the movie ticket was successfully added.
