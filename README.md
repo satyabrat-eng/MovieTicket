@@ -6,21 +6,25 @@ This is a implemented a basic Movie Ticket Management API using REST principles.
 🔹 GET /ticket/movie
 	•	Purpose: Fetches all movies.
 	•	Response: A list of movie objects with details like id, movieName, movieDirector, movieRating, and movieLanguage.
+ 
 ⸻--------------------------------------------------------------------------------
 🔹 GET /ticket/movie/{id}
 	•	Purpose: Fetches a single movie by its id.
 	•	Example: /ticket/movie/2 returns details for the movie with ID 2.
 	•	Response: A single movie object.
+ 
 ⸻--------------------------------------------------------------------------
 🔹 POST /ticket/movie
 	•	Purpose: Adds a new movie entry.
 	•	Request Body: JSON payload with movieName, movieDirector, movieRating, and movieLanguage.
 	•	Response: Confirmation with status 200 OK.
+ 
  ⸻------------------------------------------------------------------------------
 🔹 PUT /ticket/movie/{movieId}
 	•	Purpose: Updates an existing movie entry.
 	•	Request Body: JSON payload with movieName, movieDirector, movieRating, and movieLanguage to update the movie details.
 	•	Response: Confirmation with status 200 OK if the update is successful. If the movie with the provided ID does not exist, the response might be a 404 Not Found.
+ 
 ⸻------------------------------------------------------------------------------------
 🔹 DELETE /ticket/movie/{movieId}
 	•	Purpose: Deletes an existing movie entry by its ID.
